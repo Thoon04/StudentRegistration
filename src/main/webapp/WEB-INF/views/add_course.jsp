@@ -33,6 +33,7 @@
 			            <div class="col-md-4">
 			                <form:input type="text" class="form-control" id="course_id" path="course_id"/>
 			            </div>
+			            <h5>This is Course ID</h5>
 			        </div>
 			
 			        <div class="row mb-4">
