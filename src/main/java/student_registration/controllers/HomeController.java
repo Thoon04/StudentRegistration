@@ -10,8 +10,10 @@ public class HomeController {
 		return "welcome";
 	}
 	
-	@RequestMapping("/hello")
+	@RequestMapping("/hi")
 	public String hello() {
+		String a = "This is string";
+		System.out.println(a);
 		return "welcome";
 	}
 }
