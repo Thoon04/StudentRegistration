@@ -9,11 +9,9 @@ public class HomeController {
 	public String welcome() {
 		return "welcome";
 	}
-	
-	@RequsetMapping("/welcomeroute")
+	@RequestMapping("/hello")
 	public String hello() {
 		return "welcome";
 	}
-	
 }
 
