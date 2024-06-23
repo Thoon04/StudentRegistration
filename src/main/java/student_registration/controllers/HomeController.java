@@ -9,13 +9,11 @@ public class HomeController {
 	public String welcome() {
 		return "welcome";
 	}
-	@RequestMapping("hello")
+	
+	@RequestMapping("/hello")
 	public String hello() {
-		return "hello";
+		return "welcome";
 	}
-	
-	
-	
 }
 
 
